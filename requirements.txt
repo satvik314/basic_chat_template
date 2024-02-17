@@ -1,0 +1,5 @@
+langchain
+langchain-openai
+langchain-google-genai
+streamlit
+streamlit-chat
