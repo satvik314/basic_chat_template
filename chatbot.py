@@ -22,7 +22,7 @@ if "messages" not in st.session_state.keys(): # Initialize the chat message hist
 # Initialize ChatOpenAI and ConversationChain
 # llm = ChatOpenAI(model_name="gpt-4o-mini")
 # llm = ChatGoogleGenerativeAI(model = "gemini-pro")
-lmm = ChatOpenAI(model = "meta-llama/Llama-3.2-90B-Vision-Instruct-Turbo",
+llm = ChatOpenAI(model = "meta-llama/Llama-3.2-90B-Vision-Instruct-Turbo",
                       openai_api_key = st.secrets["TOGETHER_API_KEY"] , ## use your key
                       openai_api_base = "https://api.together.xyz/v1"
 
